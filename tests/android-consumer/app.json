@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "Corlex native proof",
+    "slug": "corlex-native-proof",
+    "version": "0.0.0",
+    "android": { "package": "ru.corlex.nativeproof" }
+  }
+}

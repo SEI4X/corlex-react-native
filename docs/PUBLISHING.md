@@ -1,0 +1,3 @@
+# Release process
+
+Source candidate 0.1.0 is unpublished. The owner reviews/merges the public PR after hosted build, native, security and dependency checks pass. Record the public commit, SDK-only export manifest, licenses/notices, frozen dependency inventory/SBOM, archive file list and checksums before creating a draft release. Publish only the reviewed archive. No npm identity/token is created automatically; registry publication requires configured protected trusted publishing. Repository ownership can be transferred separately. Never copy private Git history, servers, credentials, app data or build caches.

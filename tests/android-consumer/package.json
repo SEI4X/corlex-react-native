@@ -1,0 +1,16 @@
+{
+  "name": "corlex-native-android-proof",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@corlex/sdk-react-native": "file:../..",
+    "expo": "58.0.21",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1"
+  },
+  "overrides": {
+    "minimatch@>=7.0.0 <11.0.1": "11.0.8"
+  }
+}
