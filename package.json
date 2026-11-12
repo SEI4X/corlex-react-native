@@ -1,0 +1,100 @@
+{
+  "name": "@corlex/sdk-react-native",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Corlex React Native and Expo analytics, native crashes, consent and Remote Config",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEI4X/corlex-react-native.git"
+  },
+  "homepage": "https://github.com/SEI4X/corlex-react-native#readme",
+  "bugs": "https://github.com/SEI4X/corlex-react-native/issues",
+  "files": [
+    "dist",
+    "ios",
+    "android/build.gradle",
+    "android/src/main",
+    "app.plugin.js",
+    "expo-module.config.json",
+    "scripts/upload-sourcemaps.mjs",
+    "scripts/with-symbols.sh",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./expo-router": {
+      "types": "./dist/expo-router.d.ts",
+      "default": "./dist/expo-router.js"
+    },
+    "./react-navigation": {
+      "types": "./dist/react-navigation.d.ts",
+      "default": "./dist/react-navigation.js"
+    },
+    "./app.plugin.js": "./app.plugin.js",
+    "./package.json": "./package.json"
+  },
+  "imports": {
+    "#core": "./internal/core/index.ts",
+    "#core/test-protocol": "./internal/core/test/protocol.ts",
+    "#remote-config": "./internal/remote-config/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc",
+    "test": "vitest run && node --test scripts/upload-sourcemaps.test.mjs",
+    "build": "tsdown && node scripts/postbuild.mjs && node scripts/check-metro-optional.mjs && node scripts/check-plugin.mjs",
+    "pack:check": "pnpm pack --pack-destination .artifacts"
+  },
+  "packageManager": "pnpm@10.33.4",
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@noble/hashes": "2.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "24.19.2",
+    "eslint": "10.13.0",
+    "globals": "17.13.0",
+    "tsdown": "0.23.1",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.0",
+    "vitest": "5.0.5",
+    "@expo/config-plugins": "58.0.11",
+    "@types/react": "19.3.0",
+    "expo": "58.0.21",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "eslint-plugin-react-hooks": "7.1.1"
+  },
+  "author": "Corlex",
+  "peerDependencies": {
+    "@expo/config-plugins": ">=9",
+    "@react-native-community/netinfo": ">=11",
+    "expo": ">=58.0.21 <59",
+    "react": ">=19.3.0 <20",
+    "react-native": ">=0.88.1 <0.89",
+    "expo-router": ">=58.0.28 <59"
+  },
+  "peerDependenciesMeta": {
+    "@expo/config-plugins": {
+      "optional": true
+    },
+    "@react-native-community/netinfo": {
+      "optional": true
+    },
+    "expo-router": {
+      "optional": true
+    }
+  }
+}

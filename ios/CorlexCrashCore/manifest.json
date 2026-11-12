@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "license": "MIT",
+  "namespace": "corlex_rn_",
+  "files": [
+    {
+      "file": "CorlexCrash.c",
+      "target": "CorlexRNCrash.c",
+      "sourceSha256": "d7b2e58ce03ac29acb4837f801a13db1fb81936679702156606537cfa7873801",
+      "vendoredSha256": "952b79c75c5f9938a384d5fa0ed5a0a232d23d7d87b62e08ccc3cc74a789e790"
+    },
+    {
+      "file": "CorlexImages.c",
+      "target": "CorlexRNImages.c",
+      "sourceSha256": "7829173b3995e1062fd9fb7d8870faf468d8c977db68c371f1989f5a7ac16110",
+      "vendoredSha256": "662a2ba372fc9633ea7b8bf35168f71b1247ee637b8990b2f3ef24072ec942bc"
+    },
+    {
+      "file": "CorlexStack.c",
+      "target": "CorlexRNStack.c",
+      "sourceSha256": "d325777fd9c1b7aadeb9f2c4626ebef4441ae1548f1300668b5b5c6af312ae5c",
+      "vendoredSha256": "c6b3d7b9341302f0e23b0542761b3d865d7f8dc8807d223627a097458e5db8cd"
+    },
+    {
+      "file": "CorlexOutput.c",
+      "target": "CorlexRNOutput.c",
+      "sourceSha256": "ab3282150b0835b85163797a8f70837efd94bb9eaadb3f7620c1eee37bb44580",
+      "vendoredSha256": "29e85eddec2b4a0009de875688f3318823148559b4427eaa5709db92b81dadaa"
+    },
+    {
+      "file": "CorlexInternal.h",
+      "target": "CorlexRNInternal.h",
+      "sourceSha256": "87b32db8b84dbf81a0268570bb583b2828e39455f292f1281547a060b14b1562",
+      "vendoredSha256": "356681dfce03489aa4d4919fc73542b921f59a7f94b874c4758997c909c1b048"
+    },
+    {
+      "file": "include/CorlexCrash.h",
+      "target": "include/CorlexRNCrash.h",
+      "sourceSha256": "7f1fc44bf5e0e6fc96a0b0b0e8a4029e878de5b157207767832bbb1b73355d07",
+      "vendoredSha256": "66101cc9c0f777d164c1778f9bb89cc3ed2d2decc0dbe57231103b316479c2e8"
+    }
+  ]
+}

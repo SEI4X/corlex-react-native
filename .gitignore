@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.artifacts/
+coverage/
+.env
+.env.*
+.corlex/
+.DS_Store
+**/build/
+**/.gradle/
+**/.expo/
+tests/android-consumer/android/

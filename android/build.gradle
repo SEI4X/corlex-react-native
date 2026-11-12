@@ -1,0 +1,33 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'ru.corlex.crash'
+version = '0.1.0'
+
+android {
+  namespace "ru.corlex.crash"
+  testOptions { unitTests.includeAndroidResources = true }
+  defaultConfig {
+    versionCode 1
+    versionName '0.1.0'
+  }
+}
+
+dependencies {
+  testImplementation 'junit:junit:4.13.2'
+  testImplementation 'org.robolectric:robolectric:4.14.1'
+  constraints {
+    // Robolectric's test-only graph; never constrain the host application runtime.
+    testImplementation('com.squareup.okio:okio:3.4.0') {
+      because 'GHSA-w33c-445m-f8w7'
+    }
+    testImplementation('com.google.guava:guava:33.7.2-jre') {
+      because 'GHSA-xxph-c9ww-hj94'
+    }
+    testImplementation('org.bouncycastle:bcprov-jdk18on:1.85') {
+      because 'Patched Bouncy Castle security advisories through 1.85'
+    }
+  }
+}

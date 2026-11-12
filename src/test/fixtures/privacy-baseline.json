@@ -1,0 +1,31 @@
+{
+  "NSPrivacyCollectedDataTypes": [
+    {
+      "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeProductInteraction",
+      "NSPrivacyCollectedDataTypeLinked": true,
+      "NSPrivacyCollectedDataTypeTracking": false,
+      "NSPrivacyCollectedDataTypePurposes": ["NSPrivacyCollectedDataTypePurposeAnalytics"]
+    },
+    {
+      "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeDeviceID",
+      "NSPrivacyCollectedDataTypeLinked": true,
+      "NSPrivacyCollectedDataTypeTracking": false,
+      "NSPrivacyCollectedDataTypePurposes": ["NSPrivacyCollectedDataTypePurposeAnalytics"]
+    },
+    {
+      "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeUserID",
+      "NSPrivacyCollectedDataTypeLinked": true,
+      "NSPrivacyCollectedDataTypeTracking": false,
+      "NSPrivacyCollectedDataTypePurposes": ["NSPrivacyCollectedDataTypePurposeAnalytics"]
+    },
+    {
+      "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeCrashData",
+      "NSPrivacyCollectedDataTypeLinked": true,
+      "NSPrivacyCollectedDataTypeTracking": false,
+      "NSPrivacyCollectedDataTypePurposes": [
+        "NSPrivacyCollectedDataTypePurposeAnalytics",
+        "NSPrivacyCollectedDataTypePurposeAppFunctionality"
+      ]
+    }
+  ]
+}

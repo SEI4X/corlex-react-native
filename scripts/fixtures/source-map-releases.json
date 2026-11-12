@@ -1,0 +1,32 @@
+[
+  {
+    "version": "2.4.0",
+    "build": "101",
+    "expectedRelease": "rn_HK7jvAjmVHV8Znc1jMcYQ5cvh_Dc1rhjj1yaJkWJ3M4"
+  },
+  {
+    "version": "2.4.0",
+    "build": "102",
+    "expectedRelease": "rn_HbpgShhDXIZcOkbPc_ElUq2WdjlN-CrF6_tPyvLM68U"
+  },
+  {
+    "version": "2.4.0+beta",
+    "build": "ios/42",
+    "expectedRelease": "rn_yBwXqovjOtD3PNGm5y8s_5__anL52QzVrvUOjapfwYI"
+  },
+  {
+    "version": "версия",
+    "build": "сборка",
+    "expectedRelease": "rn_vBrgX-5I9epADPR72MlXoNwQDAJHR0Ksd8creGBUyc0"
+  },
+  {
+    "version": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "build": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "expectedRelease": "rn_w7GyyGdYfD5egqVHLkmTc2tl6KwJnQOs9wyqYAJRP3U"
+  },
+  {
+    "version": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa😀",
+    "build": "bbbbbbbbbbbbbbbbbbbbbbbbbbbb😀",
+    "expectedRelease": "rn_0qA1oRiIhpis5wnRipGWsU0sIifk72tfzVEN9FJJFLc"
+  }
+]

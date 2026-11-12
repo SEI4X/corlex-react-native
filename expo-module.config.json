@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["CorlexCrashModule"]
+  },
+  "android": {
+    "modules": ["ru.corlex.crash.CorlexCrashModule"]
+  }
+}
